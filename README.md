@@ -8,3 +8,5 @@ The system can receive messages consisting of ASCII-coded text, limited to chara
 The encoded message transmitted to the PC is contextually displayed by exploiting the green LED on the board.
 + It uses the Producer/Consumer paradigm for encoding message characters. Specifically, the embedded system initiates the encoding and returns the corresponding encoding on the serial as soon as the first character is received from the PC.
 + Receipt/encoding/retransmission management is done through the use of Tasks and a shared queue.
+
+Academic Year : 2022
